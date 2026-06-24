@@ -1,0 +1,4 @@
+arxiv==4.0.0
+google-genai>=1.0.0
+python-dotenv>=1.0.1
+slack_sdk>=3.33.0
