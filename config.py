@@ -21,7 +21,7 @@ class AppConfig:
     arxiv_max_results: int = 100
     arxiv_delay_seconds: float = 15.0
     arxiv_num_retries: int = 6
-    top_n: int = 5
+    top_n: int = 3
 
 
 def _required_env(name: str) -> str:
@@ -71,5 +71,5 @@ def load_config() -> AppConfig:
         arxiv_max_results=_int_env("ARXIV_MAX_RESULTS", 100),
         arxiv_delay_seconds=_float_env("ARXIV_DELAY_SECONDS", 15.0),
         arxiv_num_retries=_int_env("ARXIV_NUM_RETRIES", 6),
-        top_n=_int_env("TOP_N", 5),
+        top_n=_int_env("TOP_N", 3),
     )

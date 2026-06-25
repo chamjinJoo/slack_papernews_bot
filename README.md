@@ -54,7 +54,7 @@ python main.py
 
 1. arXiv에서 최신 논문 100개 수집
 2. 키워드 점수로 정렬
-3. 상위 5개 선택
+3. 상위 3개 선택
 4. Gemini API로 한국어 설명 생성
 5. Slack DM 전송
 

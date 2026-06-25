@@ -27,4 +27,5 @@ jobs:
           GEMINI_MODEL: gemini-2.5-flash
           ARXIV_DELAY_SECONDS: "30"
           ARXIV_NUM_RETRIES: "8"
+          TOP_N: "3"
         run: python main.py
