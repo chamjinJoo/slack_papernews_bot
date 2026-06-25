@@ -3,10 +3,11 @@ from __future__ import annotations
 import json
 import logging
 from dataclasses import dataclass
-from typing import Any, TypedDict
+from typing import Any
 
 from google import genai
 from google.genai import types
+from typing_extensions import TypedDict
 
 from arxiv_fetcher import Paper
 
