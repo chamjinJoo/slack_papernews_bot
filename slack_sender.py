@@ -30,7 +30,7 @@ def format_paper_message(
         f"*{index}. {paper.title}*\n"
         f"- Score: {score}\n"
         f"- Field: {_truncate(explanation.field) or '-'}\n"
-        f"- Core idea: {_truncate(explanation.core_idea) or '-'}\n"
+        f"- Core Idea: {_truncate(explanation.core_idea) or '-'}\n"
         f"- Note: {_truncate(explanation.note) or '-'}\n"
         f"- Authors: {authors or '-'}\n"
         f"- Published: {paper.published.date().isoformat()}\n"
@@ -42,7 +42,7 @@ def build_digest_message(
     ranked_papers: Sequence[tuple[Paper, int]],
     explanations: Sequence[PaperExplanation],
 ) -> str:
-    lines = ["*Daily ML Paper Digest - arXiv 최신 논문 브리핑*"]
+    lines = ["*Daily ML Paper Digest - arXiv Latest Papers*"]
     for index, ((paper, score), explanation) in enumerate(
         zip(ranked_papers, explanations, strict=True),
         start=1,

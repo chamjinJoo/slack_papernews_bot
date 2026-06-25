@@ -66,7 +66,7 @@ python main.py
 python main.py
 ```
 
-Slack DM을 받으면 arXiv 수집, 랭킹, 메시지 전송은 성공입니다. `Field`, `Core idea`, `Note`가 구체적인 한국어 설명으로 채워지면 Gemini 설명 생성까지 성공한 것입니다.
+Slack DM을 받으면 arXiv 수집, 랭킹, 메시지 전송은 성공입니다. `Field`, `Core Idea`, `Note`가 구체적인 한국어 설명으로 채워지면 Gemini 설명 생성까지 성공한 것입니다.
 
 ## GitHub Actions 예시
 
